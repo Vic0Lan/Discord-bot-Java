@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "JDA-5.0.0-alpha.2-withDependencies.jar",
+        "c:\\Users\\Vittorio\\Desktop\\Java\\jsoup-1.14.3.jar"
+    ]
+}
