@@ -26,8 +26,8 @@ public class BotCommands extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent event){
         String[] args = event.getMessage().getContentRaw().split(" ");
 
-        if(args[0].equalsIgnoreCase(prefix + "ennio")){
-            event.getMessage().reply("Morto!").queue();
+        if(args[0].equalsIgnoreCase(prefix + "dio")){
+            event.getMessage().reply("cane!").queue();
 
             try {
                 retrieve_log(event);
